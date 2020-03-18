@@ -1,0 +1,6 @@
+20151109T221617: javierarocha.com/netxus/index.php
+PHP Fatal error:  Call to undefined function get_header() in /hermes/bosnaweb08a/b1401/ipg.javierarochacom1/netxus/index.php on line 11
+
+20151109T221633: javierarocha.com/netxus/index.php
+PHP Fatal error:  Call to undefined function get_header() in /hermes/bosnaweb08a/b1401/ipg.javierarochacom1/netxus/index.php on line 11
+
