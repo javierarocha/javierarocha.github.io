@@ -1,0 +1,169 @@
+@charset "UTF-8";
+/* CSS Document */
+
+
+
+#container {
+	position:relative;
+	width:7870px;
+	}
+#logo {
+	position: fixed;
+	z-index: 1;
+	}
+#fondo1 {
+	width: 1300px;
+	height: 1000px;
+	float: left;
+	background-image: url(images/bg1.jpg);
+	background-position: left top;
+	background-attachment: fixed;
+	background-repeat: no-repeat;
+	background-clip: content-box;
+}
+#fondo2 {
+	width: 1370px;
+	height: 1000px;
+	float: left;
+	background-image: url(images/bg2.jpg);
+	background-position: left top;
+	background-attachment: fixed;
+	background-repeat: no-repeat;
+	background-clip: content-box;
+	position:relative;
+	}
+
+#fondo3 {
+	width: 1300px;
+	height: 1000px;
+	float: left;
+	background-image: url(images/bg3.jpg);
+	background-position: left top;
+	background-attachment: fixed;
+	background-repeat: no-repeat;
+	background-clip: content-box;
+	}
+	
+#fondo4 {
+	width: 1300px;
+	height: 1000px;
+	float: left;
+	background-image: url(images/bg4.jpg);
+	background-position: left top;
+	background-attachment: fixed;
+	background-repeat: no-repeat;
+	background-clip: content-box;
+	}
+	
+#fondo5 {
+	width: 1300px;
+	height: 1000px;
+	float: left;
+	background-image: url(images/bg5.jpg);
+	background-position: left top;
+	background-attachment: fixed;
+	background-repeat: no-repeat;
+	background-clip: content-box;
+	}
+#fondo6 {
+	width: 1300px;
+	height: 1000px;
+	float: left;
+	background-image: url(images/bg6.jpg);
+	background-position: left top;
+	background-attachment: fixed;
+	background-repeat: no-repeat;
+	background-clip: content-box;
+	}
+	
+#play_btn {
+	height: 31px;
+	width: 31px;
+	float:right;
+	margin-top:350px;
+	margin-right: 40px;
+	
+	}
+
+#space_bandcamp {
+	margin-left: 250px;
+	margin-top: 110px;
+	width:305px;
+	height: 480px;
+	float:left;
+	}
+#bandcampcamp {
+	}
+#derechos {
+	margin-top: 10px;
+	width: 311px;
+	height: 20px;
+	}
+	
+#lamares {
+	width: 307px;
+	height: 510px;
+	float:left;
+	margin-top:110px;
+	margin-left: 55px;
+	}
+	
+#comprar {
+	width: 309px;
+	height: 124px;
+	float:left;
+	}
+
+#descargar {
+	width: 216px;
+	height: 45px;
+	float:left;
+	margin-top: 40px;
+	margin-left: 10px;
+	}
+#redes {
+	width: 329px;
+	height: 30px;
+	position: absolute;
+	left: 943px;
+	top: 628px;
+	}
+#youtube-play {
+	width: 560px;
+	height: 315px;
+	margin-top: 180px;
+	margin-left: 350px;
+	
+	}
+#papagayo {
+	margin-top: 5px;
+	}
+#discoviejo {
+	width: 165px;
+	height: 301px;
+	margin-top: 110px;
+	margin-left: 5px;
+	float:left;
+	}
+#gallery1 {
+	width: 960px;
+	height: 600px;
+	margin-top: 100px;
+	margin-left: 150px;
+	}
+	
+#wallpapers {
+	width: 368px;
+	height: 347px;
+	margin-left:auto;
+	margin-right:auto;
+	margin-top: 180px;
+	}
+	
+#thanks{
+	 width: 960px;
+	 height: 100px;
+	 margin-left: auto;
+	 margin-right: auto;
+	 margin-top: 280px;
+	} 	
