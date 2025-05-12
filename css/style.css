@@ -81,7 +81,9 @@ a {
 }
 
 .color {
-    color: #FF0049;
+    color: #5200FF;
+    color: #5200FF;
+    color: #5200FF;
     font-size: 11px;
 }
 strong {
@@ -109,7 +111,9 @@ h3 {
 }
 
 h5 {
-    color: #FF0049;
+    color: #5200FF;
+    color: #5200FF;
+    color: #5200FF;
 }
 
 
@@ -151,7 +155,9 @@ h5 {
     width: 100%;
     height: 100%;
     border-radius: 50%;
-    background-color: #FF0049;
+    background-color: #5200FF;
+    background-color: #5200FF;
+    background-color: #5200FF;
     opacity: 0.6;
     position: absolute;
     top: 0;
@@ -259,7 +265,9 @@ h5 {
 }
 
 .box-primary-nav-trigger .box-menu-text {
-    color: #FF0049;
+    color: #5200FF;
+    color: #5200FF;
+    color: #5200FF;
     text-transform: uppercase;
     font-weight: 700;
     display: none;
@@ -405,7 +413,9 @@ h5 {
 }
 
 .box-primary-nav .box-label {
-    color: #FF0049;
+    color: #5200FF;
+    color: #5200FF;
+    color: #5200FF;
     text-transform: uppercase;
     font-weight: 700;
     font-size: 17px;
@@ -459,7 +469,9 @@ h5 {
 }
 
 b i:last-child {
-    /* color: #FF0049 !important; */
+    /* color: #5200FF !important; */
+    /* color: #5200FF !important; */
+    /* color: #5200FF !important; */
 }
 
 .box-intro h5 {
@@ -480,7 +492,9 @@ b i:last-child {
     left: 50%;
     margin-left: -12px;
     border-radius: 15px;
-    border: 2px solid #FF0049;
+    border: 2px solid #5200FF;
+    border: 2px solid #5200FF;
+    border: 2px solid #5200FF;
     -webkit-animation: intro 1s;
     animation: intro 1s;
 }
@@ -491,7 +505,9 @@ b i:last-child {
     height: 3px;
     margin: 6px auto;
     border-radius: 4px;
-    background: #FF0049;
+    background: #5200FF;
+    background: #5200FF;
+    background: #5200FF;
     -webkit-animation: finger 2s infinite;
     animation: finger 2s infinite;
 }
@@ -733,7 +749,9 @@ b i:last-child {
 
 .portfolio .categories-grid .categories ul li a.active {
     margin-left: 0;
-    background-color: #FF0049;
+    background-color: #5200FF;
+    background-color: #5200FF;
+    background-color: #5200FF;
     padding: 0px 20px;
     color: white;
     border-radius: 25px;
@@ -790,7 +808,9 @@ b i:last-child {
 .portfolio_item .portfolio_item_hover .item_info em {
     font-style: normal;
     display: inline-block;
-    background-color: #FF0049;
+    background-color: #5200FF;
+    background-color: #5200FF;
+    background-color: #5200FF;
     padding: 5px 20px;
     border-radius: 25px;
     color: white;
@@ -876,12 +896,16 @@ footer img {
     right: 10px;
     text-align: center;
     color: #fff;
-    background: #FF0049;
+    background: #5200FF;
+    background: #5200FF;
+    background: #5200FF;
     visibility: hidden;
     opacity: 0;
     /* -webkit-transition: opacity .3s 0s, visibility 0s .3s;
     transition: opacity .3s 0s, visibility 0s .3s;
-    box-shadow: 0 0 50px #FF0049; */
+    box-shadow: 0 0 50px #5200FF; */
+    box-shadow: 0 0 50px #5200FF; */
+    box-shadow: 0 0 50px #5200FF; */
 }
 
 .cd-top.cd-is-visible,
@@ -1091,7 +1115,9 @@ a:active {
 
 .input-contact > span.active,
 .textarea-contact > span.active {
-    color: #FF0049;
+    color: #5200FF;
+    color: #5200FF;
+    color: #5200FF;
     font-size: 10px;
     top: 0px;
     left: 5px;
@@ -1112,7 +1138,7 @@ textarea:focus {
     height: 30px;
     width: 30px;
     display: inline-block;
-    background: #FF0049;
+    background: #5200FF;
     text-align: center;
     line-height: 33px;
     margin-right: 10px;
@@ -1126,7 +1152,7 @@ textarea:focus {
 }
 
 .btn-box {
-    background: #FF0049;
+    background: #5200FF;
     padding: 10px 50px;
     border-radius: 0;
     color: #fff;
@@ -1156,7 +1182,7 @@ textarea:focus {
 
 .cat-ul li i {
     margin-right: 10px;
-    color: #FF0049;
+    color: #5200FF;
 }
 
 .container-fluid {}
