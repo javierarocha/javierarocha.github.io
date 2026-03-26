@@ -1,0 +1,13 @@
+<wpml-config>
+  <admin-texts>
+    <key name="ample">
+      <key name="ample_header_logo_image"/>
+      <key name="ample_header_info_text"/>
+      <key name="ample_header_title_background_image"/>
+      <key name="ample_header_background_image"/>
+      <key name="ample_favicon"/>
+      <key name="ample_read_more_text"/>
+      <key name="ample_footer_editor"/>
+    </key>
+  </admin-texts>
+</wpml-config>

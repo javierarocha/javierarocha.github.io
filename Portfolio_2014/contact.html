@@ -1,0 +1,89 @@
+<!doctype html>
+<html>
+<head>
+<meta charset="UTF-8">
+<title>JAV AROCHA</title>
+<link href="css/contact-style.css" rel="stylesheet" type="text/css">
+
+
+<!--MOUSE WHEEL-->
+<!--SCROLL HORIZONTAL-->
+<script src="http://ajax.googleapis.com/ajax/libs/jquery/1.7.1/jquery.min.js"></script>
+	<script src="jquery.mousewheel.js"></script>
+	<script>
+	$(function(){
+		$("#page-wrap").wrapInner("<table cellspacing='30'><tr>");
+		$(".post").wrap("<td></td>");
+		$("html,body").mousewheel(function(event, delta) {
+			this.scrollLeft -= (delta * 30);
+			event.preventDefault();
+		});   
+	});
+	</script>
+<!--FIN DE SCROLL HORIZONTAL-->
+
+<!--FIN MOUSE WHEEL-->
+
+<style type="text/css">
+body {
+	margin-left: 0px;
+	margin-top: 0px;
+	margin-right: 0px;
+	margin-bottom: 0px;
+}
+.BORDER {
+	border-width: 0px;
+}
+</style>
+<script type="text/javascript">
+function MM_preloadImages() { //v3.0
+  var d=document; if(d.images){ if(!d.MM_p) d.MM_p=new Array();
+    var i,j=d.MM_p.length,a=MM_preloadImages.arguments; for(i=0; i<a.length; i++)
+    if (a[i].indexOf("#")!=0){ d.MM_p[j]=new Image; d.MM_p[j++].src=a[i];}}
+}
+function MM_swapImgRestore() { //v3.0
+  var i,x,a=document.MM_sr; for(i=0;a&&i<a.length&&(x=a[i])&&x.oSrc;i++) x.src=x.oSrc;
+}
+function MM_findObj(n, d) { //v4.01
+  var p,i,x;  if(!d) d=document; if((p=n.indexOf("?"))>0&&parent.frames.length) {
+    d=parent.frames[n.substring(p+1)].document; n=n.substring(0,p);}
+  if(!(x=d[n])&&d.all) x=d.all[n]; for (i=0;!x&&i<d.forms.length;i++) x=d.forms[i][n];
+  for(i=0;!x&&d.layers&&i<d.layers.length;i++) x=MM_findObj(n,d.layers[i].document);
+  if(!x && d.getElementById) x=d.getElementById(n); return x;
+}
+
+function MM_swapImage() { //v3.0
+  var i,j=0,x,a=MM_swapImage.arguments; document.MM_sr=new Array; for(i=0;i<(a.length-2);i+=3)
+   if ((x=MM_findObj(a[i]))!=null){document.MM_sr[j++]=x; if(!x.oSrc) x.oSrc=x.src; x.src=a[i+2];}
+}
+</script>
+</head>
+
+<body onLoad="MM_preloadImages('images/me-btn-on_02.png','images/botones-on_21.png')">
+
+<div id="container">
+    	<div id="header-red"></div>
+        <div id="work-img"><img src="images/contact-img_02.png" width="573" height="442"  alt=""/></div>
+        <div id="phonephone"><img src="images/contact-img_03.png" width="582" height="442"  alt=""/></div>
+        <div id="correo-mail"><img src="images/contact-img_05.jpg"  alt="" width="581" height="509" usemap="#Map"/>
+          <map name="Map">
+            <area shape="circle" coords="209,282,197" href="mailto:arocha.grafico@gmail.com">
+          </map>
+  </div>
+        
+        <div id="cv"><img src="images/cv-img.jpg"  alt="" width="300" height="300" usemap="#Map2"/>
+          <map name="Map2">
+            <area shape="circle" coords="144,131,92" href="CV-AROCHA.pdf">
+          </map>
+  </div>
+</div>  
+<div id="nav-nav">
+        	<div id="boton1"><a href="me.html" onMouseOut="MM_swapImgRestore()" onMouseOver="MM_swapImage('boton-me','','images/me-btn-on_02.png',1)"><img src="images/me-btn_02.png" alt="" width="121" height="56" class="BORDER" id="boton-me"></a></div>
+        	<div id="boton2"><a href="work.html" onMouseOut="MM_swapImgRestore()" onMouseOver="MM_swapImage('Image45343','','images/botones-on_21.png',1)"><img src="images/botones-off_21.png" alt="" width="195" height="56" class="BORDER" id="Image45343"></a></div>
+</div>
+
+
+	
+	
+</body>
+</html>

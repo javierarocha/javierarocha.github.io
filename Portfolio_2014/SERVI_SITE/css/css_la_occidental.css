@@ -1,0 +1,277 @@
+@charset "utf-8";
+/* CSS Document */
+
+
+body {
+	background-image: url(../images/textura_fondo_laOcc.jpg);
+	background-repeat: repeat;
+	border-top-width: 0px;
+	border-right-width: 0px;
+	border-bottom-width: 0px;
+	border-left-width: 0px;
+	margin: 0px;
+	padding: 0px;
+	color: #7b7b7b;
+	font-family: "Lucida Sans Unicode", "Lucida Grande", sans-serif;
+	font-size: 12px;
+}
+
+a:link {
+	text-decoration: none;
+	color: #7b7b7b;
+}
+
+.link_enlaces a:link {
+	text-decoration: none;
+	color: #008E45;
+}
+a:visited {
+	text-decoration: none;
+	color: #7b7b7b;
+}
+
+.link_enlaces a:visited {
+	text-decoration: none;
+	color: #008E45;
+}
+a:hover {
+	text-decoration: none;
+	color: #000;
+}
+
+.link_enlaces a:hover {
+	text-decoration: none;
+
+	color: #000;
+} 
+
+a:active {
+	text-decoration: none;
+	color: #008E45;
+}
+
+.images{
+	border-top-width: 0px;
+	border-right-width: 0px;
+	border-bottom-width: 0px;
+	border-left-width: 0px;
+}
+#container {
+	margin: 0px auto;
+	height: 100%;
+	width: 100%;
+}
+#botoneraBG{
+	width: 100%;
+	height: 32px;
+	border-bottom-width: thin;
+	border-bottom-style: solid;
+	border-bottom-color: #008e45;
+	top: 0px;
+	margin-bottom: 1px;
+	padding-bottom: 1px;
+	margin-right: auto;
+	margin-left: auto;
+}
+#botonera{
+	width: 960px;
+	height: 32px;
+	border-bottom-width: 1px;
+	border-bottom-style: solid;
+	border-bottom-color: #008e45;
+
+	top: 0px;
+	margin-bottom: 1px;
+	padding-bottom: 1px;
+	margin-right: auto;
+	margin-left: auto;
+}
+
+#space_botonera {
+	width: 960px;
+	margin-right: auto;
+	margin-left: auto;
+}
+
+#botones_head {
+	float: right;
+	padding-top: 12px;
+	font-family: 'Raleway', sans-serif;
+	font-size: 11px;
+	text-align: center;
+	width: 604px;
+	height: 22px;
+		
+}
+.boton_head {
+	float: right;
+	width: auto;
+	padding-left: 7px;
+	padding-right: 7px;
+	
+}
+
+#header {
+	width: 960px;
+	height: 158px;
+	margin-right: auto;
+	margin-left: auto;
+	border-bottom-width: 1px;
+	border-bottom-style: solid;
+	border-bottom-color: #a9a9a9;
+	padding-top: 20px;
+}
+
+#logo_occidental{
+
+
+}
+#contenido {
+	width: 960px;
+	margin-right: auto;
+	margin-left: auto;
+	margin-top: 26px;
+	padding: 0px;
+	height: 808px;
+}
+
+#banner_main{
+	margin: 0;
+	height: 320px;
+}
+
+#sombra_banner {
+	margin: 0px;
+	padding: 0px;
+}
+#enlaces_home {
+	text-align: left;
+	width: 960px;
+	border-top-width: 1px;
+	border-top-style: solid;
+	border-top-color: #a9a9a9;
+}
+
+.titulo_secciones {
+	font-size: 28px;
+	height: 76px;
+	width: 960px;
+	font-family: 'Oswald', sans-serif;
+	font-weight: lighter;
+	color:#a9a9a9;
+}
+
+#titulo_enlaces {
+	font-size: 24px;
+	height: 46px;
+	width: 960px;
+	font-family: Oswald, sans-serif;
+	font-weight: lighter;
+	padding-top: 30px;
+}
+
+#titulo_enlaces .destacado {
+	color: #000;
+}
+.los_enlaces_home {
+	float: left;
+	height: 368px;
+	width: 300px;
+	font-family: 'Raleway', sans-serif;
+	font-size: 16px;
+	border-left-style: solid;
+	border-left-width: 1px;
+	border-left-color: #008e45;
+	padding-top: 0px;
+	padding-right: 0px;
+	padding-bottom: 0px;
+	padding-left: 19px;
+}
+
+#footerbg {
+	width:100%;
+	margin-right: auto;
+	margin-left: auto;
+	margin-top: 26px;
+	background-color: #008e45;
+	font-size: 10px;
+	color: #FFF;
+	letter-spacing: 0px;
+	text-align: center;
+	padding-top: 10px;
+	padding-bottom: 10px;
+	float: none;
+
+}
+#footer {
+	width: 960px;
+	margin-right: auto;
+	margin-left: auto;
+	background-color: #008e45;
+	font-size: 10px;
+	color: #FFF;
+	letter-spacing: 0px;
+	text-align: center;
+	padding-top: 10px;
+	padding-bottom: 10px;
+	float: none;
+
+}
+#container #contenido .los_enlaces_home .contenido_enlaces {
+	padding-right: 26px;
+}
+
+
+
+/*MENU DESPLEGABLE*/
+
+#btn1 {
+	float: left;
+	width: 90px;
+	margin-left: 15px;
+	text-align: right;
+	height: 21px;
+	position: relative;
+	z-index: 1;
+}
+#btn2 {
+	float: left;
+	width: 92px;
+	margin-left:15px;
+	text-align: right;
+
+	
+	}
+#btn3 {
+	float: left;
+	width: 58px;
+	margin-left:15px;
+	text-align: right;
+
+	
+	}
+#btn4 {
+	float: left;
+	width: 65px;
+	margin-left:15px;
+	text-align: right;
+
+	
+	}
+#btn5 {
+	float: left;
+	width: 120px;
+	margin-left:15px;
+	text-align: right;
+	height: 22px;
+
+	
+	}
+#btn6 {
+	float: left;
+	width: 89px;
+	margin-left:15px;
+	text-align: right;
+
+	
+	}
