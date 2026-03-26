@@ -1,1 +1,175 @@
+<!DOCTYPE html>
+<html lang="en">
 
+<head>
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <title>Jarocha - Delivery Hero</title>
+    <link rel="icon" href="img/fav.png" type="image/x-icon">
+
+    <link href="css/bootstrap.min.css" rel="stylesheet">
+    <link href="ionicons/css/ionicons.min.css" rel="stylesheet">
+
+    <link href="css/style.css" rel="stylesheet">
+
+    <script src="js/modernizr.js"></script>
+
+    <style>
+        .main-container p, 
+        .main-container li, 
+        .main-container h3, 
+        .main-container h5,
+        .cat-ul li {
+            color: #000000 !important;
+        }
+    </style>
+
+    </head>
+
+<body>
+
+    <div id="preloader">
+        <div class="pre-container">
+            <div class="spinner">
+                <div class="double-bounce1"></div>
+                <div class="double-bounce2"></div>
+            </div>
+        </div>
+    </div>
+    <div class="container-fluid">
+       <header class="box-header">
+            <div class="box-logo">
+                <a href="index.html"><img src="img/logo.svg" width="189" alt="Logo"></a>
+            </div>
+            <a class="box-primary-nav-trigger" href="#0">
+                <span></span><span class="box-menu-icon"></span>
+            </a>
+            </header>
+        <nav>
+            <ul class="box-primary-nav">
+                <li class="box-label">About me</li>
+
+                <li><a href="index.html">Home</a></li>
+                <li><a href="about.html">About me</a></li>
+                <li><a href="services.html">services</a></li>
+                <li><a href="portfolio.html">portfolio</a> <i class="ion-ios-circle-filled color"></i></li>
+
+                <li class="box-label">Follow me</li>
+
+                <li class="box-social"><a href="https://www.linkedin.com/in/javier-arocha/" target="_blank"><i class="ion-social-linkedin"></i></a></li>
+            </ul>
+        </nav>
+        </div>
+    
+    <div class="top-bar">
+        <h1>|</h1>
+        <h1>Delivery Hero</h1>
+    </div>
+    <div class="container main-container">
+        
+        <div class="col-md-12">
+            <img src="img/Delivery-Hero-Cover.jpg" alt="Delivery Hero Ecosystem" class="img-responsive" />
+            <div class="h-30"></div>
+        </div>
+
+        <div class="col-md-12">
+            <h3 class="text-uppercase">Delivery Hero (Pelican App, Vendor & Store Management)</h3>
+            <h5>Staff / Principal Product Designer & Design Systems Lead</h5>
+            <div class="h-30"></div>
+        </div>
+
+        <div class="col-md-9">
+            <p><strong>Over 6 years, I led the end-to-end design of global operational tools (Quick Commerce)</strong>, standardizing processes across 4 continents, building two Design Systems from scratch, and accelerating team efficiency through AI (Agentic AI, Figma Make) and a custom UX Excellence Program.</p>
+            
+            <p>Delivery Hero's operational ecosystem is the invisible engine powering millions of daily deliveries. Designing for this environment meant creating universal solutions that worked seamlessly across highly diverse markets: MENA, LATAM, APAC, and Europe. Each region had its own legal regulations, work cultures, and operational constraints, demanding a perfect balance between global standardization and local adaptation.</p>
+        </div>  
+
+        <div class="col-md-3">
+            <ul class="cat-ul">
+                <li><i class="ion-ios-circle-filled"></i> Design Systems Lead</li>
+                <li><i class="ion-ios-circle-filled"></i> Team Maturity (DesignOps)</li>
+                <li><i class="ion-ios-circle-filled"></i> AI Workflows (Agentic AI)</li>
+                <li><i class="ion-ios-circle-filled"></i> Global Scale Complexity</li>
+                <li><i class="ion-ios-circle-filled"></i> Service Blueprints</li>
+                <li><i class="ion-ios-circle-filled"></i> Native App Design (Android)</li>
+            </ul>
+            <div class="h-10"></div>
+        </div>
+        
+        <div class="clearfix"></div>
+
+        <div class="col-md-9">
+            <div class="col-md-9">
+                <h3 class="text-uppercase">The Core Challenge 🌍</h3>
+            </div>
+            <div class="h-30"></div>
+            <p>The challenge was threefold:</p>
+            <ul>
+                <li><strong>Operational Complexity:</strong> Designing <em>Pelican</em>, a native Android app for pickers, handling real-time flows: order reception, laser scanning, complex edge cases (weighable items, out-of-stock replacements), and massive inventory management (pallet receivings, Putaway processes, Cycle Counts).</li>
+                <li><strong>Administrative Ecosystem:</strong> Creating a connected suite (Vendor, Store, Inventory & Shopper Management) so store managers could control P&L, stock, and staff.</li>
+                <li><strong>Design Team Scalability:</strong> Amidst hyper-growth, the 20+ design team lacked a single source of truth and standardized processes to design with speed and consistency.</li>
+            </ul>
+            <div class="h-30"></div>
+        </div>
+
+        <div class="clearfix"></div>
+
+        <div class="col-md-9">
+            <div class="col-md-9">
+                <h3 class="text-uppercase">Ecosystem Standardization & UX Excellence 📐</h3>
+            </div>
+            <img src="img/Delivery-DesignSystem.jpg" alt="Design Systems and Architecture" class="img-responsive" />
+            <div class="h-30"></div>
+            <p><strong>Ecosystem Standardization:</strong> I was the sole creator and lead developer of two global Design Systems from scratch. Working hand-in-hand with developers gave me deep technical knowledge to ensure components were viable, accessible, and scalable.</p>
+            <p><strong>UX Excellence & DesignOps:</strong> I created a customizable UX Excellence Program, successfully standardizing practices across a team of 20+ designers. I implemented strict Version Control and branching in Figma, elevating the entire department's output. Pelican scaled so much that it now requires 7 designers operating strictly under my quality checks.</p>
+            <div class="h-30"></div>
+        </div>
+
+        <div class="clearfix"></div>
+
+        <div class="col-md-9">
+            <div class="col-md-9">
+                <h3 class="text-uppercase">AI-Accelerated Workflows & Field Research 🤖</h3>
+            </div>
+            <img src="img/Delivery-Research.jpg" alt="Global Field Research" class="img-responsive" />
+            <div class="h-30"></div>
+            <p><strong>AI-Accelerated Workflows:</strong> I lead the optimization of workflows using Artificial Intelligence. I leverage <strong>Agentic AI</strong> and <strong>NotebookLM</strong> for research synthesis, alongside <strong>Figma Make</strong> to generate rapid prototypes, validating multiple strategic options almost instantly.</p>
+            <p><strong>Global Research:</strong> I traveled worldwide to field-test solutions, mapping entire operations using Service Blueprints to translate physical discrepancies (damaged products) into frictionless digital workflows.</p>
+            <div class="h-30"></div>
+        </div>
+
+        <div class="clearfix"></div>
+
+        <div class="col-md-9">
+            <div class="col-md-9">
+                <h3 class="text-uppercase">Results & KPIs 📈</h3>
+            </div>
+            <ul>
+                <li>Reduced global picking time per order by <strong>XX%</strong> by optimizing Pelican's workflows.</li>
+                <li>Decreased inventory discrepancies by <strong>XX%</strong> through intuitive Cycle Count flows.</li>
+                <li>Increased UI delivery speed (Time-to-market) by <strong>XX%</strong> following the adoption of the Design System and UX Excellence Program (Version Control).</li>
+                <li>Boosted efficiency in discovery and prototyping by <strong>XX%</strong> integrating AI tools.</li>
+            </ul>
+            <div class="h-30"></div>
+            
+            <div class="col-md-9">
+                <h3 class="text-uppercase">Key Takeaways</h3>
+            </div>
+            <p>Scaling a product globally isn't about enforcing centralized design; it's about building flexible systems—both technical and human—that adapt to local laws and cultures without compromising business operational efficiency.</p>
+            <div class="h-30"></div>
+        </div>
+        
+        </div>
+    <a href="#0" class="cd-top"><i class="ion-android-arrow-up"></i></a>
+    <script src="js/jquery-2.1.1.js"></script>
+    <script src="js/bootstrap.min.js"></script>
+    <script src="js/menu.js"></script>
+    <script src="js/animated-headline.js"></script>
+    <script src="js/isotope.pkgd.min.js"></script>
+
+    <script src="js/custom.js"></script>
+
+</body>
+
+</html>
